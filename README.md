@@ -36,7 +36,7 @@ Same as
 
 ## Options
 - `-h,   --help         → show this help message and exit`
-- -`v,   --version      → show program's version number and exit`
+- `-v,   --version      → show program's version number and exit`
 - `-r,   --rows         → rows of the board (default: 4)`
 - `-c,   --columns      → columns of the board (default: 4)`
 - `-wt,  --wintile      → tile to win (default: 2048)`
