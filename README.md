@@ -21,24 +21,21 @@ Ansi2048 is a Unix terminal version of the game [2048](https://github.com/gabrie
 
 # Play
 
-'python3 ~/Ansi2048/2048/main.py'
+python3 ~/Ansi2048/2048/main.py
 
-Same as 
+same as 
 
-'python3 ~/Ansi2048/2048/main.py -r=4 -c=4 -wt=2048 -hp=2 -vp=1 -trn=3 -tcn=9 -l=en -bd=4'
+python3 ~/Ansi2048/2048/main.py -r=4 -c=4 -wt=2048 -hp=2 -vp=1 -trn=3 -tcn=9 -l=en -bd=4
 
 ## [Movement keys](https://en.wikipedia.org/wiki/Arrow_keys)
 
-'
 - h j k l 	Vim
 - w a s d 	Gaming
 - ↑ ← ↓ → 	Cursor
 - q or ctrl-c	Exit game
-'
 
 ## Options
 
-'
 -h,   --help         show this help message and exit
 -v,   --version      show program's version number and exit
 -r,   --rows         rows of the board (default: 4)
@@ -50,7 +47,6 @@ Same as
 -tcn, --tilecolumnsn columns that each tile has in graphical board (default: 9)
 -l,   --lang         system language (default: en)
 -bd,  --bitdepth     color depth -> 1bit, 3bit, 4bit, 8bit, 24bit (default: 4)
-'
 
 ## Made by [Sivefunc](https://gitlab.com/sivefunc)
 ## Licensed under [GPLv3](LICENSE)
