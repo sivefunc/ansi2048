@@ -14,8 +14,7 @@ def normal_or_end(game_args, parser_args):
         # Check if movement caused the end state of NxM board
         game_args = end_of_game(game_args, parser_args, is_win, is_lose)
 
-    else:
-        gen_graphics(game_args, parser_args)
+    gen_graphics(game_args, parser_args)
     
     game_args[3] = 0 # Reset score added
     return game_args
