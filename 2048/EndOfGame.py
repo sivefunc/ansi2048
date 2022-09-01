@@ -43,5 +43,4 @@ def end_of_game(
             else:
                 game_args[-1] = -1 # There's no tile limit now
             
-            gen_graphics(game_args, parser_args)
             return game_args
